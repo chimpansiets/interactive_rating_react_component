@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Rating } from './Components/rating_component';
+import { Rating } from './Components/RatingComponent/rating_component';
 import './index.css';
 
 ReactDOM.render(

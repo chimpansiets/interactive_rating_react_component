@@ -1,0 +1,41 @@
+.rating_box {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	background: linear-gradient(
+		140deg,
+		hsl(215, 11%, 21%),
+		hsl(216, 12%, 8%)
+	);
+
+	width: 350px;
+	height: 420px;
+	border-radius: 5%;
+
+	padding: 0 4% 0 4%;
+
+	h1 { color: hsl(0, 0%, 100%); }
+
+	p { color: hsl(216, 12%, 54%) }
+}
+
+#star_icon_background {
+	height: 30px;
+	width: 30px;
+	background-color: hsl(218, 22%, 26%);
+
+	border-radius: 50%;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: center;
+	align-items: center;
+}
+
+#star_icon_svg {
+	height: 60%;
+	width: fit-content;
+	color: hsl(25, 97%, 53%);
+}

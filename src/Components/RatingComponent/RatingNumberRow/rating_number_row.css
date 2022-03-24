@@ -1,0 +1,28 @@
+#rating_number_row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0 30px 0;
+}
+#rating_number_row input[type=radio] {
+  appearance: none;
+  color: white;
+  height: 40px;
+  width: 40px;
+  background-color: #303a46;
+  border-radius: 50%;
+}
+#rating_number_row input[type=radio]:hover {
+  background-color: #fb7413;
+}
+#rating_number_row input[type=radio]:checked {
+  background-color: #7c8798;
+}
+#rating_number_row input[type=radio]:after {
+  content: attr(value);
+  left: 16px;
+  top: 12px;
+  position: relative;
+}
+
+/*# sourceMappingURL=rating_number_row.css.map */

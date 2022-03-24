@@ -1,0 +1,35 @@
+.rating_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(140deg, #30353b, #121417);
+  width: 350px;
+  height: 420px;
+  border-radius: 5%;
+  padding: 0 4% 0 4%;
+}
+.rating_box h1 {
+  color: white;
+}
+.rating_box p {
+  color: #7c8798;
+}
+
+#star_icon_background {
+  height: 30px;
+  width: 30px;
+  background-color: #343e51;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#star_icon_svg {
+  height: 60%;
+  width: fit-content;
+  color: #fb7413;
+}
+
+/*# sourceMappingURL=rating_component.css.map */
