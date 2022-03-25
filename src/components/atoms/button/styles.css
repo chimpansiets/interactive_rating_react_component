@@ -1,0 +1,30 @@
+.btn {
+  background-color: #fb7413;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.btn:hover {
+  background-color: white;
+  color: #fb7413;
+}
+.btn__fullWidth {
+  width: 100%;
+  height: 40px;
+}
+.btn__rounded {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.btn__primary {
+  background-color: #fb7413;
+  color: white;
+}
+.btn__dark {
+  background-color: #252d37;
+  color: #959eac;
+}
+
+/*# sourceMappingURL=styles.css.map */

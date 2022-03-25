@@ -1,0 +1,10 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #121417;
+  max-width: 300px;
+}
+
+/*# sourceMappingURL=styles.css.map */

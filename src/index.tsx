@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Rating } from './Components/RatingComponent/rating_component';
+import { RatingOrganism } from './components/organisms/RatingOrganism';
 import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Rating></Rating>
+    <RatingOrganism />
   </React.StrictMode>,
   document.getElementById('root')
 );

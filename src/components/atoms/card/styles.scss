@@ -1,0 +1,11 @@
+@import "../../colors.scss";
+
+.card
+{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;
+        border-radius: 10px;
+        background-color: $darker_blue;
+        max-width: 300px;
+}

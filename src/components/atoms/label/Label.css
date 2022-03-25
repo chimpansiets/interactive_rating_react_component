@@ -1,0 +1,12 @@
+.label {
+  margin: 0;
+  padding: 0;
+}
+.label__title {
+  color: white;
+}
+.label__body {
+  color: #7c8798;
+}
+
+/*# sourceMappingURL=Label.css.map */

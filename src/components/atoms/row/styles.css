@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.row__centered {
+  justify-content: center;
+  align-items: center;
+}
+.row__spread {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
