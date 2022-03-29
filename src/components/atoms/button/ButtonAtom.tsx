@@ -4,6 +4,7 @@ import './styles.css';
 interface Props {
     fullWidth?: boolean;
     rounded?: boolean;
+    enabled?: boolean;
     type: "primary" | "dark";
     onClick?: () => any;
 }

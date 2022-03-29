@@ -5,7 +5,7 @@ import { RowAtom } from '../atoms/row/Row';
 interface Props {
     maxRating: number;
     rating?: number;
-    onChange?: (rating: number) => any;
+    onChange: (rating: number) => any;
 }
 
 export class RatingMolecule extends React.Component<Props> {
@@ -13,7 +13,11 @@ export class RatingMolecule extends React.Component<Props> {
         const options = [];
 
         for (let i = 1; i <= this.props.maxRating; i++) {
-           options.push(<ButtonAtom rounded type='dark' {...this.props}>{i}</ButtonAtom>);
+            if (this.props.rating == i) {
+                options.push(<ButtonAtom onClick={() => this.props.onChange(i)} rounded type='primary' {...this.props}>{i}</ButtonAtom>);
+            } else {
+                options.push(<ButtonAtom onClick={() => this.props.onChange(i)} rounded type='dark' {...this.props}>{i}</ButtonAtom>);
+            }
         }
 
         return <RowAtom layout='spread'>

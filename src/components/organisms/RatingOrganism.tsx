@@ -2,6 +2,7 @@ import React from 'react';
 import { Card } from '../atoms/card/Card';
 import { RowAtom } from '../atoms/row/Row';
 import { DescriptionMolecule } from '../molecules/DescriptionMolecule';
+import { IconMolecule } from '../molecules/IconCardMolecule';
 import { PrimaryButtonMolecule } from '../molecules/PrimaryButtonMolecule';
 import { RatingMolecule } from '../molecules/Rating';
 import { TitleMolecule } from '../molecules/TitleMolecule';
@@ -23,11 +24,16 @@ export class RatingOrganism extends React.Component<{}, State>
         }
     }
 
-    onSelectRating = (i: number) => this.setState({ selectedValue: i });
+    onSelectRating = (i: number) => {
+        console.log(i);
+        this.setState({ selectedValue: i });
+    }
+
 
     render() {
 
-        return <Card>
+        return <Card type="rating">
+            <IconMolecule icon="star" />
             <Spacer />
             <TitleMolecule title='How did we do?' />
             <Spacer />
