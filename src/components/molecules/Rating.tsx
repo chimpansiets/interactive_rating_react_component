@@ -13,7 +13,7 @@ export class RatingMolecule extends React.Component<Props> {
         const options = [];
 
         for (let i = 1; i <= this.props.maxRating; i++) {
-            if (this.props.rating == i) {
+            if (this.props.rating === i) {
                 options.push(<ButtonAtom onClick={() => this.props.onChange(i)} rounded type='primary' {...this.props}>{i}</ButtonAtom>);
             } else {
                 options.push(<ButtonAtom onClick={() => this.props.onChange(i)} rounded type='dark' {...this.props}>{i}</ButtonAtom>);
