@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card } from '../atoms/card/Card';
-import { RowAtom } from '../atoms/row/Row';
 import { DescriptionMolecule } from '../molecules/DescriptionMolecule';
 import { IconMolecule } from '../molecules/IconCardMolecule';
 import { PrimaryButtonMolecule } from '../molecules/PrimaryButtonMolecule';
@@ -28,7 +27,6 @@ export class RatingOrganism extends React.Component<{}, State>
         console.log(i);
         this.setState({ selectedValue: i });
     }
-
 
     render() {
 
