@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# The Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The challenge: [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
 
 ## Available Scripts
 
