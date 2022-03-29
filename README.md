@@ -1,6 +1,10 @@
-# The Project
+# Interactive Rating Component
 
-The challenge: [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+The **challenge**: [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+
+The **result**:
+
+![resulting image](design/result.png)
 
 ## Available Scripts
 
